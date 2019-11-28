@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -15,5 +15,18 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.7.12",
     "morgan": "~1.9.1"
-  }
+  },
+  "description": "A mock API for a library",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerald-97/library_api.git"
+  },
+  "author": "Kenechukwu, Ogechi, Folakemi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gerald-97/library_api/issues"
+  },
+  "homepage": "https://github.com/Gerald-97/library_api#readme"
 }

@@ -14,39 +14,42 @@ const createBook = async(req, res, next) => {
     });
 
     await newBook.save();
-        return res.status(201).json({
-           message: "This book has been added to the library"
-            })
+    return res.status(201).json({
+        message: "This book has been added to the library",
+        newBook
+    })
         
-} catch (err) {
-    return next(err)
-}
+    } catch (err) {
+        return next(err)
+    }
 }
 
 
 const allBooks = async(req, res, next) => {
-    try{
-    const data = await Book.find(),
-         return res.status(200).json({ data })
-} catch (err) {
-    return next(err)
-}
+    try {
+        const data = await Book.find();
+        return res.status(200).json({ data })
+    } 
+    catch (err) {
+        return next(err)
+    }
 } 
 
 const bookEntry = async(req, res, next) => {
-    try{
-    const id = req.params.id
-     const data = await Book.findOne({_id: id });
-             res.status(200).json({
-                Title: data.Title,
-                WrittenBy: data.Author,
-                File:data.Url,
-                Description: data.Description,
-                PublishedAt: data.Published
+    try {
+        const id = req.params.id
+        const data = await Book.findOne({_id: id });
+                res.status(200).json({
+                    Title: data.Title,
+                    WrittenBy: data.Author,
+                    File:data.Url,
+                    Description: data.Description,
+                    PublishedAt: data.Published
             })
-} catch(err) {
-    return next(err)
-}
+    } 
+    catch(err) {
+        return next(err)
+    }
 }
 
 const updateBook = (req, res, next) => {
@@ -55,8 +58,8 @@ const updateBook = (req, res, next) => {
             message: "You need to be an admin to update  books"
         });
     } else {
-        const id = req.params.id
-        const { Title, Author,Url, Description, Published } = req.body
+        const id = req.params.id;
+        const { Title, Author,Url, Description, Published } = req.body;
         Book.findOne({ _id: id }, (err, data) => {
             if (err) next(err);
             if (!data) {
@@ -115,5 +118,5 @@ const deleteBook = (req, res, next) => {
     }
   };
 
-  module.exports = {createBook, allBooks, bookEntry, updateBook, deleteBook}
+module.exports = {createBook, allBooks, bookEntry, updateBook, deleteBook}
 

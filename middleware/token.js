@@ -10,7 +10,7 @@ module.exports = async (req, res, next) => {
                 message:"You do not possess an authorization"
             })
         } else {
-            const token = await verification.slice(7);
+            const token = await auth.slice(7);
             const data = await jwt.verify(token, process.env.SECRET);
             await User.find(data);
             req.user = data.isAdmin;

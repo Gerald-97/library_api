@@ -2,12 +2,12 @@ const { body, validationResult  } = require('express-validator');
 
 const validationRules = () => {
     return [
-      body('username').isEmail(),
+      body('email').isEmail(),
       body('password').isLength({ min: 5 })
     ]
 }
 const validate = async (req, res, next) => {
-    const errors = validationResult (req);
+    const errors = validationResult(req);
     if (errors.isEmpty()) {
         return next()
     }

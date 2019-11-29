@@ -3,6 +3,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var mongoose = require('mongoose');
+
 var dotenv = require('dotenv').config();
 var expressValidator = require('express-validator');
 
@@ -12,6 +13,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
+mongoose.connect(process.env.DATABASE_URL, {useNewUrlParser:true})
 
 app.use(logger('dev'));
 app.use(express.json());

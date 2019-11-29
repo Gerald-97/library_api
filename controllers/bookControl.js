@@ -53,7 +53,7 @@ const bookEntry = async(req, res, next) => {
 }
 
 const updateBook = (req, res, next) => {
-    if (!req.admin) {
+    if (!req.user) {
         return res.status(401).json({
             message: "You need to be an admin to update  books"
         });
@@ -68,21 +68,21 @@ const updateBook = (req, res, next) => {
                 })
             } else {
                 if (Title) {
-                    data.Title = title;
+                    data.Title = Title;
                 }
                 if (Url) {
-                    data.Url = url;
+                    data.Url = Url;
                 }
 
                 if (Author) {
-                    data.Author = author;
+                    data.Author = Author;
                 }
 
                 if (Description) {
-                    data.Description = description;
+                    data.Description = Description;
                 }
                 if (Published) {
-                    data.Published = published;
+                    data.Published = Published;
                 }
 
                 data.save((err, editedBook) => {
@@ -100,23 +100,26 @@ const updateBook = (req, res, next) => {
 
 
 const deleteBook = (req, res, next) => {
-    if (!req.admin) {
+    if (!req.user) {
       return res.status(401).json({
         message: "You need to be an admin to delete a book"
       });
     } else {
       const id = req.params.id;
-      Book.findByIdAndDelete({ _id: id }, err => {
-        if (err) {
-          next(err);
+      Book.findByIdAndDelete({ _id: id }, (err, data) => {
+        if (err) next(err);
+        if (!data) {
+       return res.status(401).json({
+     message: "No Book entry for this id"});
         } else {
-          res.status(204).json({
+          res.status(201).json({
             message: "Book deleted successfully"
           });
         }
-      });
-    }
-  };
+     
+    })
+}
+}
 
 module.exports = {createBook, allBooks, bookEntry, updateBook, deleteBook}
 

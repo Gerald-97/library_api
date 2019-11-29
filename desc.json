@@ -1,0 +1,72 @@
+   Register & login
+{
+    "name": "Chiama Ogechi",
+    "email":"anitaogechi@gmail.com",
+    "password": "AndreaZ",
+    "isAdmin":true
+}
+
+{
+    "name": "Gerald Inyiama",
+    "email":"Geraldinyiama@gmail.com",
+    "password": "Gerald",
+    
+}
+
+{
+    "name": "Fola Ogunsola",
+    "email":"Folaogunsola@gmail.com",
+    "password": "Fola"
+    
+}
+
+
+Books Created...
+
+{
+   "Title":"The Golden Compass",
+   "Url": "https://www.google.com/search?q=the+golden+compass&sxsrf=ACYBGNRZLsAl7iANii4EWqxzaRaE8EpGtQ:1574980000802&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjWm-fb-Y3mAhVGa8AKHczuARcQ_AUoAXoECBQQAw&biw=1366&bih=635#imgrc=NisZtD2QNyIkLM:",
+   "Author":" Philip Pullman",
+   "Description":"Lyra Belacqua is a young orphan who journeys to the far North, accompanied by Gyptians and an armoured bear. She is on a mission to rescue her best friend and other kidnapped children.",
+   "Published": "2007"
+
+}
+{
+    "Title": "A Voice In The Wind",
+    "Url": "https://www.google.com/search?q=francine+rivers+books&sxsrf=ACYBGNTTN7ewtWpmpS5Y2Lg44nr7Yd1yzw:1574980725526&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjJ6bC1_I3mAhUBlFwKHfxtAMAQ_AUoAXoECBMQAw&biw=1366&bih=635#imgrc=BZSMi0mYjNlNXM:",
+    "Author":"Francine Rivers",
+    "Description":"The ill-fated romance between a steadfast Christian slave girl, Hadassah, and Marcus, the handsome aristocrat destined to love her, set in 70 A.D. Jerusalem.",
+    "Published":"1993"
+
+},
+{
+    "Title":"The Secret Life of Bees",
+    "Url":"https://www.google.com/search?q=the+secret+life+of+bees&sxsrf=ACYBGNT_lJvsh8fS3NAfIcJA-QiogI3c3g:1574981968749&source=lnms&tbm=isch&sa=X&ved=2ahUKEwigl5mGgY7mAhXQOcAKHclyBZQQ_AUoAXoECBIQAw&biw=1366&bih=635#imgrc=3vIVkkUFrlchMM:",
+    "Author":" Sue Monk Kidd",
+    "Description":"'The Secret Life of Bees' tells the story of Lily Owens, whose life has been shaped around the blurred memory of the afternoon her mother was killed.",
+    "Published":"2003"
+}
+
+{
+    "Title":"Becoming",
+    "Url":"https://www.google.com/search?q=Becoming+(book)&stick=H4sIAAAAAAAAAGVTO28TQRi0T05ybBzFuSgouMG4ChGSb-9lHxWvEgspCRJUJnfr2_Pt3nt1rw4qSpSCH0BFwS-goKCDggIkSop0_AMkGvIgu5FSzs58883OauWl4doIjyD0jDQ1C9_T1pw4JvlgEQ00FU6-ts9pv6YmSZPoAmOfwUCfeBfYC8qmpkbKsQVNC5GM4__2HPvEpBhhoTfGDXM0jtEYTcK84Pu1EDWGTfj-IG_yICnEfK0nVglFPtssE2Mm9mcaK3B4gZEHM4Kg0JOZVrKQ87hoHDfJeF6cJYzYFd_vw1RvSlJyHqZqGlk8D46yUPUnIv-YNTS0dc4brlZUmPfrmf64KXHF882IBWe2xedd1MCCjrl-7LAotRyOtTKkYcT9cK2jIqtFn9WkIVQLhD9SA9uwOQ8zbOu66AuaoWfm9BIfGk2W8_mKlKQ2g0t8Vak0Ef1SlzLRr2caAcFE8HWVNxltRL9FUFaUXH6vio5Ncd-c4igR-yzDqSuf9-N5haFntBR5bBXZBeL9mXnEDIu_pwurSGOh0BPVLrAj7jdjUW5NxLzmoybQeR48mWkmVvFx-0ha7f3-82uz_1o6-vDlZ_ulBLqPDtl8b56zbOEyxQedU6y8AHK_c_qndqThAbDADfl4vdfebu9173snwsPR40Mc5460vaKcUd3tm1epIZBBr3PusyvL0okBGHQ0SV55tqQgsLo_ZwfxNEYLr1aeKvvg2nQeOvMsf-IpdwF4GFM6d9kijpQ7YKu_MXL5wejs2--0-pvg6vEQ7MmjcKSaPg6Gt7Stj9_fflte31i9_vzvjzfTe_3WriS3Xn16_3m5I7d7re67pfUHczcOFxEe7Jw63P4HTCOmHmgEAAA&sxsrf=ACYBGNTOFAmQ17CtphCOvSZXDVULSUaExg:1574982252551&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiXkMONgo7mAhUNTsAKHeeuCsoQ_AUoAXoECBIQAw&biw=1366&bih=635#imgrc=pHQojpQY4D753M:",
+    "Author":"Michelle Obama",
+    "Description":"Described by the author as a deeply personal experience, the book talks about her roots and how she found her voice, as well as her time in the White House, her public health campaign, and her role as a mother.",
+    "Published":"2008"
+},
+{
+    "Title":"Children of Blood and Bone",
+    "Url":"https://www.google.com/search?q=Children+of+Blood+and+Bone&stick=H4sIAAAAAAAAAGVTO2_UQBi8sy7BbC7KxVFQuIbjqihCOr99poKEkggpCRJUx9lrr8-7fq_86qCiRCn4AVQU_AIKCjooKECipEjHP0CiIQ-yGynl7Mw33-ysVlwar07QRFF8UzFMiHN11UkSXIwW8UiVlenX7gUdNMTAWRpfYhRQJdSm_iX2w6ptiJ4x_N-OYT3LjDLg-gAbBEHE9brVUkdlGFpwGhUl269GsNVtzPaHRVuEacnnGy01K4Xns40q1Wd8f67SEkWXGPpKjqHC9XimVjRiPCpbx01zlhflKcV2zfYHSqa1Fa4Yr2RyFpssD4rzSA6mPL9FWxLZGuN1Vy1rxPr1jcBqK1SzfDNsKjPbZPMubJWSWExvOTTOTIdhtYpIFDM_1GiwzBveZz1tMVFD7g_l0NZtxis5sjWN96UYkW8U5Aof6W1esPkaV7gxwit8Xcsk5f0Sl1Der2_oIUaY801dtDlpeb9lWNUEX32vmlgGv29BUJzyfabuNHXA-vH9UtdyUvE8tgztErL-jCKmusne01XqWKUR12PZLpHD7zejcWFO-bwawDbUWB40nakGktFJ91hYGfz-82tj-Fo4_vDlZ_elAPqP5tQ78AqaL1wqBaB3hqUXQBz2zv7UtjA-Aia4LZ6sDbpb3YP-Q_9UOJ88nqOkcIStG9I51d-6c50aAxEMehc-O6IonBqAUU8VxBvPliQIVg49epTsJ3DhN9JT6RDc3Pcix8uLJ750H4C9hBDPpYsklu6BzeH6xGUHk_Nvv90ZboDrx2NwIE6iiWwEKBzfVTc_fn_7bXltfeXW878_3uw_GHZ2BLHz6tP7z8s9sTvo9N8tDfeCBYG5F48Sf7RLkgSO5jEc7Sax9w_rbXKdcwQAAA&sxsrf=ACYBGNR54gyjH4iU8AZn7W2UUup30GDB7g:1574982773667&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjwsYGGhI7mAhVUXMAKHdUaA04Q_AUoAXoECBIQAw&biw=1366&bih=635#imgrc=Fo6OttNlATZLaM:",
+    "Author":"Tomi Adeyemi",
+    "Description":"Zélie Adebola remembers when the soil of Orïsha hummed with magic. Burners ignited flames, Tiders beckoned waves",
+    "Published":"2017"
+},
+{
+    "Title": "The Song of Achilles",
+    "Url":"https://www.google.com/search?q=The+Song+of+Achilles&stick=H4sIAAAAAAAAAONgFuLVT9c3NEwqiU82qiquVOLSz9U3yDI1Kcs11xLLTrbST8rPzwYTVsWZKanliZXFqxgl06yKS5OyUpNLrEAyxVYgTYaW8Xl5i1hFQjJSFYLz89IV8tMUHJMzMnNyUosBei_tMmgAAAA&sxsrf=ACYBGNTE3RdcVPDlQjPY0wjtVgrr46DPrw:1574983475959&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjF_PHUho7mAhXjmFwKHUbbD94Q_AUoAXoECA0QAw&biw=1366&bih=635#imgrc=9IZUqq54ANwPiM:",
+    "Author":"Madeline Miller",
+    "Description":"Greece in the age of Heroes. Patroclus, an awkward young prince, has been exiled to the kingdom of Phthia.",
+    "Published":"2011"
+
+
+}

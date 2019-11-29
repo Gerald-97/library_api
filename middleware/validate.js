@@ -6,7 +6,7 @@ const validationRules = () => {
       body('password').isLength({ min: 5 })
     ]
 }
-const validate = async (req, res, next) => {
+const validate = (req, res, next) => {
     const errors = validationResult(req);
     if (errors.isEmpty()) {
         return next()

@@ -39,13 +39,13 @@ const bookEntry = async(req, res, next) => {
     try {
         const id = req.params.id
         const data = await Book.findOne({_id: id });
-                res.status(200).json({
-                    Title: data.Title,
-                    WrittenBy: data.Author,
-                    File:data.Url,
-                    Description: data.Description,
-                    PublishedAt: data.Published
-            })
+        res.status(200).json({
+            Title: data.Title,
+            WrittenBy: data.Author,
+            File:data.Url,
+            Description: data.Description,
+            PublishedAt: data.Published
+        })
     } 
     catch(err) {
         return next(err)
